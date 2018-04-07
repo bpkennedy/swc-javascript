@@ -25,7 +25,7 @@ function saveImage(raceId, sex, picId, fileData) {
 }
 
 async function runBatch() {
-  for (raceId = 30; raceId < 100; raceId++) {
+  for (raceId = 0; raceId < 100; raceId++) {
     for (sex of sexes) {
       for (picId = 1; picId < 10; picId++) {
         let fileData = await getImageData(`http://img.swcombine.com/races/${raceId}/npc_${sex}${picId}.jpg`).then(response => {
