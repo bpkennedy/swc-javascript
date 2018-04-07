@@ -1,0 +1,14 @@
+{
+  "name": "swc-javascript",
+  "version": "1.0.0",
+  "description": "Assortment of javascript stuffz for star wars combine development",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "getimages": "node npcImageDownloader.js"
+  },
+  "author": "Brian Kennedy",
+  "license": "NoLicense",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
